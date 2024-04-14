@@ -13,7 +13,7 @@ body {
     max-width: 100%;
 }
 .smiling_back {
-    background-image: url('background.png');
+    background-image: url('./img/background.png');
     background-size: cover;
     background-position: center;
     height: 1093px;
@@ -23,13 +23,14 @@ body {
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 25px;
 }
 
 header nav ul {
     display: flex;
+    padding-right: 40px;
 }
 header nav ul li   {
     font-size: 12px;
@@ -38,11 +39,101 @@ header nav ul li   {
     font-family: 'Source Sans Pro',sans-serif;
     font-weight: 700;
     color: var(--text-color);
+    cursor: pointer;
 }
 .get_schooled {
     font-family: var(--main-font);
     color: var(--text-color);
     font-size: 7.5rem;
     text-align: center;
-    margin: 80px 0px 10px ;
+    margin: 80px 0px 0px ;
+}
+main section div {
+    text-align: center;
+}
+.quote {
+    color:var(--text-color);
+    font-size: inherit;
+    font-weight: 700;
+    line-height: 20.11px;
+    word-spacing: 40px;
+}
+.register_btn {
+    width: 162px;
+    height: 44px;
+    font-family: var(--main-font);
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 20px;
+    border: transparent;
+    color: var(--text-color);
+    background-color: #C271FF;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 17.6px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.learn {
+    font-weight: 700;
+    width: 261px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+
+}
+
+h2 .first-word {
+    font-size: 1.5em; /* Adjust the font size as needed */
+    font-weight: bold; /* Optionally, make it bold for emphasis */
+    color: #C271FF;
+    font-family: var(--main-font);
+}
+
+h2 .rest-of-line {
+    font-family: sans-serif;
+    font-weight: 100; /* Adjust the font weight for the rest of the line */
+    color: var(--text-color);
+    letter-spacing: 1px;
+    text-shadow: 0 0 2px black;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.container div {
+    padding: 20px;
+    margin: 10px;
+
+}
+.container div h3 {
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: var(--text-color);
+    width: 150px;
+    height: 27px;
+}
+.container div p {
+    font-family: sans-serif;
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    width: 150px;
+    height: 48px;
+    letter-spacing: 1px;
 }
