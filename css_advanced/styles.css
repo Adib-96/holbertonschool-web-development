@@ -137,3 +137,127 @@ h2 .rest-of-line {
     height: 48px;
     letter-spacing: 1px;
 }
+
+
+.part_1_test {
+    height: 392px;
+    background-color: #C271FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.quote_section {
+    width: 943px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.phrase_container {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 33.6px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 25px;
+
+}
+
+#persone_name {
+    font-weight: 700;
+    line-height: 33.6px;
+    font-family: var(--main-font);
+    font-size: 22px;
+
+}
+#weather_presenter {
+    font-style: italic;
+}
+
+.part_2_tuto h1 {
+    text-align: center;
+    width: 294px;
+    height: 40px;
+    margin: 30px auto;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.part_2_tuto h1 span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.video_compon {
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    margin-top: 30px;
+
+}
+
+
+.tuto {
+    width: 255px;
+    height: 335px;
+    position: relative;
+}
+.tuto::after {
+    content:url("./img/play.png");
+    position: absolute;
+    top: calc(95px/2);
+    left: calc(210px/2);
+    cursor: pointer;
+    
+}
+
+.mini_avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:5px 10px;
+}
+.mini_avatar h3 {
+    color: #C271FF;
+    font-family:sans-serif;
+}
+
+.tuto h2 {
+    margin: 10px auto;
+    font-family: sans-serif;
+    padding: 5px 10px;
+}
+.tuto p {
+    color:#07162996;
+    padding: 5px 10px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.rating img {
+    width: 107px;
+    height: 15px;
+}
+.rating p {
+    color:#C271FF;
+    font-family: var(--main-font);
+}
+
+.free_membership {
+    height: 502px;
+    background-color: #071629;
+}
+
+.free_membership h2 , p{
+    color: var(--text-color);
+}
