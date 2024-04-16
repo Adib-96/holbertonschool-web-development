@@ -254,10 +254,125 @@ h2 .rest-of-line {
 }
 
 .free_membership {
-    height: 502px;
+    height: 400px;
     background-color: #071629;
+    position: relative;
 }
 
 .free_membership h2 , p{
     color: var(--text-color);
+}
+
+.grid_container {
+    display: grid;
+    margin-top: 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.free_membership h1 {
+    margin: 40px auto 0;
+    text-align: center;
+    color: var(--text-color);
+    position: relative;
+    padding: 5px;
+    top: 30px;
+    font-family: sans-serif;
+}
+
+.free_membership h1 span {
+    color: #C271FF;
+    font-size:28px;
+}
+
+.register_for_free {
+    color: white;
+    background-color: #C271FF;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    border: transparent;
+    font-family: var(--main-font);
+    font-size: 14px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.grid_container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 258px;
+    height: 153px;
+}
+.grid_container div img {
+    width: 43.67px;
+    height: 35.35px;
+}
+.grid_container div h2 {
+    padding: 10px;
+}
+.grid_container div p {
+    text-align: center;
+    padding: 10px;
+}
+.text_FAQ{
+    color:#07162996;
+}
+.faq_section h1 {
+    font-size: 60px;
+    font-family:sans-serif;
+    font-weight:lighter;
+    color: #071629;
+    text-align: center;
+    padding: 10px;
+    margin: 30px auto 10px auto;
+}
+
+.grid_comp_header {
+    font-family: var(--main-font);
+    font-size: 16px;
+    padding: 30px 0 30px 0;
+}
+
+.faq_container {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows:600px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 140px;
+
+}
+
+.footer_container {
+    height: 249px;
+    background-color: #071629;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.footer_container div {
+    text-align: center;
+    width: 50%;
+}
+
+.footer_container div a {
+    padding: 5px;
+}
+ 
+.copyright {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color:rgba(255, 255, 255, 0.432);
+    padding-bottom: 25px;
+}
+.fix {
+    margin: auto;
 }
